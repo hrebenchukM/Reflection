@@ -1,17 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationClient", "ApplicationClient\ApplicationClient.csproj", "{A329EB69-FBB6-425C-9C51-C5729312E5D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ApplicationClient\ConsoleApp1.csproj", "{A329EB69-FBB6-425C-9C51-C5729312E5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLibrary", "SampleLibrary\SampleLibrary.csproj", "{662969FA-C7AB-4874-8883-01C55878E51F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academy_Group", "SampleLibrary\Academy_Group.csproj", "{662969FA-C7AB-4874-8883-01C55878E51F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Init Print", "Init Print\Init Print.csproj", "{B812B629-D5E2-4506-8A4A-87D28CEC54C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "Init Print\Person.csproj", "{B812B629-D5E2-4506-8A4A-87D28CEC54C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse", "Reverse\Reverse.csproj", "{118DCAF3-5A28-4C0C-8907-03453C42919A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Average", "Sum Average\Sum Average.csproj", "{24699B30-2F8A-49E7-9E60-9A251E38DF26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student", "Reverse\Student.csproj", "{118DCAF3-5A28-4C0C-8907-03453C42919A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B812B629-D5E2-4506-8A4A-87D28CEC54C6} = {B812B629-D5E2-4506-8A4A-87D28CEC54C6}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +36,6 @@ Global
 		{118DCAF3-5A28-4C0C-8907-03453C42919A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{118DCAF3-5A28-4C0C-8907-03453C42919A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{118DCAF3-5A28-4C0C-8907-03453C42919A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24699B30-2F8A-49E7-9E60-9A251E38DF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24699B30-2F8A-49E7-9E60-9A251E38DF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24699B30-2F8A-49E7-9E60-9A251E38DF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24699B30-2F8A-49E7-9E60-9A251E38DF26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
